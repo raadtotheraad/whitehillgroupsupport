@@ -81,7 +81,7 @@ return Settings
 
 ---
 
-## General
+## General Settings
 
 ### StartupMode
 === `"Normal" | "Hold" | "Exit" | "Lock"`

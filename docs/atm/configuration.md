@@ -54,7 +54,7 @@ local Settings = {
 return Settings
 ```
 
-## Syntax
+## General Settings
 
 ### Currency
 === `string`

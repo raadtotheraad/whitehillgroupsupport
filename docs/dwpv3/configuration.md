@@ -198,7 +198,7 @@ The Webhook URL is stored under `Settings`, in a `WebhookURL` ModuleScript.
 !!!
 
 ### LogCorrectScans
-=== `bool`
+=== `boolean`
 Should V3 log correct scans.
 
 ---
@@ -210,7 +210,7 @@ Example:
 ===
 
 ### LogIncorrectScans
-=== `bool`
+=== `boolean`
 Should V3 log incorrect scans.
 
 ---
@@ -222,7 +222,7 @@ Example:
 ===
 
 ### LogButtonPresses
-=== `bool`
+=== `boolean`
 Should V3 log button presses.
 
 ---
@@ -262,7 +262,7 @@ Example:
 ## Global API Settings
 
 ### GAPI-Lock
-=== `bool`
+=== `boolean`
 Should the doors listen to Global API Lock requests?
 
 ---
@@ -274,7 +274,7 @@ Example:
 ===
 
 ### GAPI-Fire
-=== `bool`
+=== `boolean`
 Should the doors listen to Global API Fire requests?
 
 ---
@@ -286,7 +286,7 @@ Example:
 ===
 
 ### GAPI-Open
-=== `bool`
+=== `boolean`
 Should the doors listen to Global API Open requests?
 
 ---
@@ -298,7 +298,7 @@ Example:
 ===
 
 ### GAPI-Hold
-=== `bool`
+=== `boolean`
 Should the doors listen to Global API Hold requests?
 
 ---
@@ -318,7 +318,7 @@ This section is dedicated to Ae Expanse by [SCADA](https://www.roblox.com/commun
 !!!
 
 ### ExpanseEnabled
-=== `bool`
+=== `boolean`
 Should Expanse be used?
 
 ---

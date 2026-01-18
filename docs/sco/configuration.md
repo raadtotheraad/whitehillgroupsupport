@@ -155,7 +155,7 @@ return Settings
 
 ---
 
-## Syntax
+## General Settings
 
 ### UITheme
 === `string`
@@ -230,7 +230,7 @@ Example:
 ===
 
 ### InsertCardProximityPrompt
-=== `bool`
+=== `boolean`
 Whether to insert a [Proximity Prompt](https://create.roblox.com/docs/reference/engine/classes/ProximityPrompt) into the card reader instead of a [Click Detector](https://create.roblox.com/docs/reference/engine/classes/ClickDetector).
 
 ---
@@ -242,7 +242,7 @@ Example:
 ===
 
 ### PromptForBags
-=== `bool`
+=== `boolean`
 Whether to prompt for shopping bags before going to the payment screen.
 
 ---
@@ -277,7 +277,7 @@ For additional security, it is recommended to only log in with an operator barco
 !!!
 
 ### Enabled
-=== `bool`
+=== `boolean`
 Whether pins should be enabled.
 
 ---
@@ -291,7 +291,7 @@ Example:
 ===
 
 ### ShowPlayerWhenLoggedIn
-=== `bool`
+=== `boolean`
 Whether to show the player name instead of account name. 
 If logged in with operator barcode player will be shown instead of account name, in all other situations account name is shown.
 
@@ -352,7 +352,7 @@ Example:
 ===
 
 ### DisableMaintenanceHatchWhitelist
-=== `bool`
+=== `boolean`
 Whether to disable the Maintenance Hatch whitelist.
 
 ---
@@ -390,7 +390,7 @@ This setting is intended to demonstration purposes only. Disabling the whitelist
 ## ReceiptCustomisation
 
 ### Enabled
-=== `bool`
+=== `boolean`
 Whether to enable receipt printing or not.
 
 ---
@@ -490,7 +490,7 @@ Example:
 ===
 
 ### Applegate_VoCoVo
-=== `bool`
+=== `boolean`
 Whether using the Applegate VoCoVo for Self Checkout notifications.
 
 ---
@@ -503,7 +503,7 @@ Example:
 ===
 
 ### Kybo_Walvo
-=== `bool`
+=== `boolean`
 Whether using the Kybo Walvo for Self Checkout notifications.
 
 ---
@@ -516,7 +516,7 @@ Example:
 ===
 
 ### AllowPayWithPhoneAPI
-=== `bool`
+=== `boolean`
 Integration with external payment devices.
 
 ---
@@ -549,7 +549,7 @@ This feature is not available yet.
 ## InGameStaff
 
 ### Enabled
-=== `bool`
+=== `boolean`
 Whether the in-game staff availability system is active.
 
 ---
@@ -631,7 +631,7 @@ Example:
 # TransactionCompletion
 
 ### DisableEAS
-=== `bool`
+=== `boolean`
 Determines whether EAS tags should be automatically deactivated on tools when a transaction is completed.
 
 ---
@@ -719,14 +719,14 @@ Finish message displayed when the transaction completes.
 ---
 
 ### PayButtonTotal
-=== `bool`
+=== `boolean`
 If `true`, the Pay button shows the total transaction price.
 If `false`, it displays "Finish & Pay".
 
 ---
 
 ### DefaultUIAnimations
-=== `bool`
+=== `boolean`
 When enabled, some parts of the UI will be animated.
 
 !!!
@@ -781,7 +781,7 @@ Displayed when a customer begins a Scan & Shop session.
 ---
 
 ### AutoRelease
-=== `bool`
+=== `boolean`
 If `true`, handsets are dispensed automatically. If `false`, the customer must manually remove one.
 
 ---
@@ -799,7 +799,7 @@ Threshold of remaining handsets before a low-inventory warning is triggered.
 ---
 
 ### ShowBoot
-=== `bool`
+=== `boolean`
 If `true`, the terminal displays a boot animation on startup.
 ===
 
@@ -808,13 +808,13 @@ If `true`, the terminal displays a boot animation on startup.
 === **HandsetSettings**
 
 ### WelcomeScreen
-=== `bool`
+=== `boolean`
 Determines whether a welcome screen appears when the handset initializes.
 
 ---
 
 ### ShowCurrency
-=== `bool`
+=== `boolean`
 Shows or hides the currency symbol on handset UI.
 
 ---
@@ -851,14 +851,14 @@ Controls how barcodes are handled at checkout:
 
 ### AutoReturn
 
-=== `bool`
+=== `boolean`
 If enabled, handsets automatically return to the terminal after transfer.
 
 ===
 
 ### AllowExternal
 
-=== `bool`
+=== `boolean`
 Whether third-party handsets may connect. Disabled by default for security.
 
 ===

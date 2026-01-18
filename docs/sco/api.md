@@ -12,7 +12,7 @@ categories:
   - JSM
   - SelfServ SCO
 ---
-# SCO API
+# SelfCheckout API
 
 ![](/static/assets/banners/whg_scoapi.png)
 
@@ -108,6 +108,24 @@ end
 - **If you `return false`:** It will deny the transaction.
 !!!
 
+
+---
+
+## Locale
+
+Located in each SCO Terminal, the Locale is used for controlling the TriLight(s). 
+
+```lua
+workspace["JSM | SelfCheckout V3"].Terminals["JSM | SeflServ 7350"].Locale.Event:Connect(function (Protocol: string, Action: string): ()
+    warn(Protocol, Action);
+end);
+```
+
+!!!light What do these mean?
+- **Protocol**: (`string`) The protocol to be used.
+- **Action**: (`string`) Action to take, ie: change TriLight colour.
+
+!!!
 
 ---
 

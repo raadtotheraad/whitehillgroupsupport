@@ -13,7 +13,7 @@ categories:
   - DWProx
   - V3
 ---
-# V3 API
+# DWProx V3 API
 
 ![](/static/assets/banners/whg_v3api.png)
 

@@ -24,8 +24,6 @@ This page assumes the user has basic knowledge of the Roblox scripting language,
 
 ---
 
-## SystemConfig
-
 Your default configuration, found in `JSM | Intelli-Sense EAS` **->** `JSM | Controller` **->** `Settings`, is structured as follows:
 
 ```lua
@@ -56,6 +54,10 @@ local Settings = {
 return Settings
 ```
 
+---
+
+## General Settings
+
 ### SiteName
 === `string`
 This will be displayed on the controller screen.
@@ -70,7 +72,7 @@ Example:
 ===
 
 ### ClockEnabled
-=== `bool`
+=== `boolean`
 Whether to display your game's time.
 
 ---
@@ -107,10 +109,10 @@ Example:
 ===
 
 ### AutomaticIntegrations
-=== `{ [string]: bool }`
-- **Applegate_VoCoVo**: (`bool`)
+=== `{ [string]: boolean }`
+- **Applegate_VoCoVo**: (`boolean`)
   Integration with VoCoVo by Applegate. Set to `false` if not using.
-- **Kybo_Walvo**: (`bool`)
+- **Kybo_Walvo**: (`boolean`)
   Integration with Walvo by Kybo. Set to `false` if not using.
 
 ---

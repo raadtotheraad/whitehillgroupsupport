@@ -193,7 +193,7 @@ The Webhook URL is stored under `PaxtonSettings`, in a `WebhookURL` ModuleScript
 !!!
 
 ### LogCorrectScans
-=== `bool`
+=== `boolean`
 Should Net2+ log correct scans.
 
 ---
@@ -205,7 +205,7 @@ Example:
 ===
 
 ### LogIncorrectScans
-=== `bool`
+=== `boolean`
 Should Net2+ log incorrect scans.
 
 ---
@@ -217,7 +217,7 @@ Example:
 ===
 
 ### LogButtonPresses
-=== `bool`
+=== `boolean`
 Should Net2+ log button presses.
 
 ---
@@ -229,7 +229,7 @@ Example:
 ===
 
 ### LogDoorReleases
-=== `bool`
+=== `boolean`
 Should Net2+ log emergency door releases.
 
 ---
@@ -269,7 +269,7 @@ Example:
 ## Global API Settings
 
 ### GAPI-Lock
-=== `bool`
+=== `boolean`
 Should the doors listen to Global API Lock requests?
 
 ---
@@ -281,7 +281,7 @@ Example:
 ===
 
 ### GAPI-Fire
-=== `bool`
+=== `boolean`
 Should the doors listen to Global API Fire requests?
 
 ---
@@ -293,7 +293,7 @@ Example:
 ===
 
 ### GAPI-Open
-=== `bool`
+=== `boolean`
 Should the doors listen to Global API Open requests?
 
 ---
@@ -305,7 +305,7 @@ Example:
 ===
 
 ### GAPI-Hold
-=== `bool`
+=== `boolean`
 Should the doors listen to Global API Hold requests?
 
 ---
@@ -317,7 +317,7 @@ Example:
 ===
 
 ### GAPI-ResetReleases
-=== `bool`
+=== `boolean`
 Should the doors listen to Global API Reset Releases requests?
 
 ---
@@ -337,7 +337,7 @@ This section is dedicated to Ae Expanse by [SCADA](https://www.roblox.com/commun
 !!!
 
 ### ExpanseEnabled
-=== `bool`
+=== `boolean`
 Should Expanse be used?
 
 ---
@@ -377,7 +377,7 @@ Example:
 ## Miscellaneous Settings
 
 ### DisableConsoleOutputs
-=== `bool`
+=== `boolean`
 Whether to disable all console outputs from Net2+ or not.
 
 ---
@@ -477,7 +477,7 @@ Example:
 
 
 ### DisableCabinetWhitelist
-=== `bool`
+=== `boolean`
 
 Whether to disable the Paxton cabinet whitelist.
 

@@ -132,7 +132,7 @@ return Data
 
 ---
 
-## Syntax
+## General Settings
 
 ### DrinkX
 === `table`
