@@ -22,7 +22,7 @@ all organized for clarity and ease of navigation.
 ---
 
 !!!info Need assistance?
-Visit our [FAQ Page](/faq.md) for help, or contact Whitehill Support via Discord for assistance.
+Visit our [FAQ Page](/faq.md) for help, or contact Whitehill Support via [Discord](https://discord.whitehill.group/) for assistance.
 !!!
 
 !!!warning Before purchasing...
