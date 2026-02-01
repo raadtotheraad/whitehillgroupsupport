@@ -84,6 +84,3 @@ Add the BindableFunction as a child to the Tool of your Card. Once that is done,
 !!!success Done!
 Now your Cards should be able to function with your SCO. Doesn't work? Visit our [FAQ Page](/faq.md) for help, or contact Whitehill Support via our [Discord server](https://discord.whitehill.group/) for further assistance.
 !!!
-
-
-
