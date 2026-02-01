@@ -1,13 +1,13 @@
 ---
-icon: tools
+icon: package
 label: Adding Products
-order: 95
+order: 97
 tags: [Products]
 image: /static/assets/whg_headbanner.png
 authors: 
     - name: raadtotheraad
       link: https://github.com/raadtotheraad
-      avatar: https://avatars.githubusercontent.com/u/149825178?
+      avatar: https://avatars.githubusercontent.com/u/149825178
 categories:
   - JSM
   - SelfServ SCO

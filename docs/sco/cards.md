@@ -1,6 +1,6 @@
 ---
 icon: note
-label: Adding Products
+label: Adding Cards
 order: 95
 tags: [Cards]
 image: /static/assets/whg_headbanner.png
