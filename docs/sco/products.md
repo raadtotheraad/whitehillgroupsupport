@@ -30,6 +30,9 @@ This page assumes familiarity with Roblox Studio's Explorer and basic model hier
 
 === Step 1 - Add the example Tools
 Download and import the example Tools from [Axon](https://axon.whitehill.group). You will find an Operator Login Card, a Debit Card and an example Product.
+
+To import your file, simply drag the product file into Roblox Studio once your game is fully loaded.
+Alternatively, you can use the Explorer context menu by right-clicking and selecting **Insert > Insert From File**.
 ===
 
 === Step 2 - Get the Item Data
