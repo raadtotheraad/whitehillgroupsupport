@@ -27,6 +27,9 @@ authors:
 
 Check out our frequently asked questions, the answer you're looking for might already be here.
 
+==- Do licenses work in Communities I don't own?
+No. For your products to work in games owned by Communities (formerly Groups), your account needs to be the owner. 
+
 ==- What does Pre-Order mean?
 The product is not yet available to be downloaded, buy can be "pre-ordered", meaning you purchase it while it's still in development, usually at a discounted price.
 
