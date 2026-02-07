@@ -114,10 +114,6 @@ Example:
 ["CardOnly"] = true
 ```
 
-!!!danger
-This value **must** be unique. Otherwise, the SCO will throw an error.
-!!!
-
 ===
 
 ### StartMode
